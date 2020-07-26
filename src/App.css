@@ -1,0 +1,50 @@
+.App {
+  /* text-align: center; */
+  background: whitesmoke;
+}
+.footer {
+  height: 150px;
+  width: auto;
+  line-height: 150px;
+  background: white;
+}
+.socialIcon {
+  height: 50px;
+  width: 100px;
+}
+.line {
+  height: 40px;
+  width: 1px;
+  background: gray;
+}
+.button {
+  color: blueviolet;
+}
+.logoImg {
+  height: 30px;
+  width: 30px;
+  /* margin-left: ; */
+}
+
+@media only screen and (max-width: 375px) {
+  .footer {
+    height: 0px;
+    width: auto;
+    line-height: 50px;
+    background: white;
+    margin-left: 10px;
+    float: left;
+    display: row;
+    
+  }
+  .socialIcon {
+    height: 0px;
+    width: 0px;
+  }
+  .logoImg {
+    height: 0px;
+    width: 0px;
+  }
+}
+
+
